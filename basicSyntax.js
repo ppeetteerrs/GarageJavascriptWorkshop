@@ -74,6 +74,9 @@ let templateLiteral = `The student studies ${NTUStudent.course}`;
 function sayHi() {
     return "hi";
 }
+const sayShortHi = () => {
+    return "hi";
+}
 function functionThatCallsAnotherFunction(func) {
     return func();
 }
